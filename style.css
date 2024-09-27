@@ -1,0 +1,34 @@
+body {
+    color: #ff0000c9;
+    background-color: #350453d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+}
+
+button {
+    font-size: 16px;
+    color: #00ffea;
+    background-color: #2f9fff;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+.passo img {
+    height: auto;
+    max-width: 300px;
+}
+
